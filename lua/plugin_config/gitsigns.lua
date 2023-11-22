@@ -1,10 +1,10 @@
 require('gitsigns').setup {
   signs = {
-    add          = { text = '➕' },
-    change       = { text = '～' },
-    delete       = { text = '➖' },
-    topdelete    = { text = '‾‾' },
-    change       = { text = '～' },
+    add          = { text = '+' },
+    change       = { text = '~' },
+    delete       = { text = '-' },
+    topdelete    = { text = '‾' },
+    change       = { text = '~' },
   },
   signcolumn = true,  -- Toggle with `:Gitsigns toggle_signs`
   numhl      = false, -- Toggle with `:Gitsigns toggle_numhl`
