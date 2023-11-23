@@ -61,6 +61,7 @@ return require('packer').startup(function(use)
     end
   }
 
+  -- LSP
   use {
       {'williamboman/mason.nvim'},
       {'williamboman/mason-lspconfig.nvim'},
@@ -75,6 +76,9 @@ return require('packer').startup(function(use)
       { 'saadparwaiz1/cmp_luasnip'},
       { 'rafamadriz/friendly-snippets'},
   }
+
+  -- latex
+  use 'lervag/vimtex'
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
