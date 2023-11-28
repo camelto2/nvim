@@ -100,4 +100,5 @@ require('which-key').register {
   ['<leader>w'] = { name = '[W]orkspace', _ = 'which_key_ignore' },
   ['<leader>e'] = { name = '[E]xplore', _ = 'which_key_ignore' },
   ['<leader>l'] = { name = '[L]atex', _ = 'which_key_ignore' },
+  ['<leader>n'] = { name = '[N]eorg', _ = 'which_key_ignore' },
 }
