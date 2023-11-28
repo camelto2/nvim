@@ -9,9 +9,10 @@ require("neorg").setup({
     ["core.dirman"] = {      -- manages Neorg workspaces
       config = {
         workspaces = {
-          notes = "~/notes",
+          playground = "~/neorg/playground",
+          norg = "~/neorg"
         },
-        default_workspace = 'notes',
+        default_workspace = 'norg',
       },
     },
   },
@@ -19,3 +20,4 @@ require("neorg").setup({
 
 vim.keymap.set('n', '<leader>ni', ':Neorg index<CR>', { desc = "[N]eorg [I]ndex"})
 vim.keymap.set('n', '<leader>nw', ':Neorg workspace ', { desc = "[N]eorg [W]orkspace"})
+vim.keymap.set('n', '<leader>nj', ':Neorg journal <CR>', { desc = "[N]eorg [J]ournal"})
