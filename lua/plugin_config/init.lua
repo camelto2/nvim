@@ -1,4 +1,4 @@
-local req = function(plugin) 
+local req = function(plugin)
   require('plugin_config.'..plugin)
 end
 

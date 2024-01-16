@@ -1,3 +1,4 @@
+vim.defer_fn(function() require('nvim-treesitter.install').prefer_git = true end, 0)
 vim.defer_fn(function()
   require('nvim-treesitter.configs').setup {
     -- Add languages to be installed here that you want installed for treesitter
