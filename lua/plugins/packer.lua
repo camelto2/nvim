@@ -46,20 +46,7 @@ return require('packer').startup(function(use)
   }
   use { 'nvim-telescope/telescope-fzf-native.nvim', run = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build' }
 
-  use { 'alexghergh/nvim-tmux-navigation', config = function()
-        require'nvim-tmux-navigation'.setup {
-            disable_when_zoomed = true, -- defaults to false
-            keybindings = {
-                left = "<C-h>",
-                down = "<C-j>",
-                up = "<C-k>",
-                right = "<C-l>",
-                last_active = "<C-\\>",
-                next = "<C-Space>",
-            }
-        }
-    end
-  }
+  use 'alexghergh/nvim-tmux-navigation'
 
   -- LSP
   use {
