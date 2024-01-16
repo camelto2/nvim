@@ -20,4 +20,5 @@ require("neorg").setup({
 
 vim.keymap.set('n', '<leader>ni', ':Neorg index<CR>', { desc = "[N]eorg [I]ndex"})
 vim.keymap.set('n', '<leader>nw', ':Neorg workspace ', { desc = "[N]eorg [W]orkspace"})
-vim.keymap.set('n', '<leader>nj', ':Neorg journal ', { desc = "[N]eorg [J]ournal"})
+vim.keymap.set('n', '<leader>njto', ':Neorg journal toc open<CR>', { desc = "[N]eorg [J]ournal [T]OC [O]pen"})
+vim.keymap.set('n', '<leader>njtu', ':Neorg journal toc update<CR>', { desc = "[N]eorg [J]ournal [T]OC [U]pdate"})

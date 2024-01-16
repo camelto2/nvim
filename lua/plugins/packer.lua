@@ -89,10 +89,9 @@ return require('packer').startup(function(use)
   use "arnamak/stay-centered.nvim"
 
   use {
-    "akinsho/toggleterm.nvim", 
+    "akinsho/toggleterm.nvim",
     tag = '*'
   }
-  
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
