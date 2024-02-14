@@ -14,4 +14,3 @@ vim.opt.shiftwidth = 2
 vim.opt.tabstop = 2
 
 vim.g.netrw_bufsettings = 'noma nomod nu nowrap ro nobl'
-
