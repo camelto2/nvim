@@ -35,7 +35,7 @@ require('gitsigns').setup {
     row = 0,
     col = 1
   },
-  yadm = {
-    enable = false
-  },
+  --yadm = {
+  --  enable = false
+  --},
 }
