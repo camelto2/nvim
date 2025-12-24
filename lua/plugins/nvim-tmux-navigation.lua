@@ -1,4 +1,6 @@
-require'nvim-tmux-navigation'.setup {
+return {
+  'alexghergh/nvim-tmux-navigation', 
+  opts = {
     disable_when_zoomed = true, -- defaults to false
     keybindings = {
         left = "<C-h>",
@@ -8,4 +10,5 @@ require'nvim-tmux-navigation'.setup {
         last_active = "<C-\\>",
         next = "<C-Space>",
     }
+  }
 }

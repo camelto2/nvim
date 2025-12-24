@@ -9,3 +9,7 @@ vim.keymap.set('n', '<leader>gm', ':Git merge ', { desc = "[g]it [m]erge"} )
 vim.keymap.set('n', '<leader>gp', ':Git push ', { desc = "[g]it [p]ush"} )
 vim.keymap.set('n', '<leader>go', ':Git checkout ', { desc = "[g]it check[o]ut"} )
 vim.keymap.set('n', '<leader>gb', ':Git branch', { desc = "[g]it [b]ranch"} )
+
+return {
+  'tpope/vim-fugitive'
+}

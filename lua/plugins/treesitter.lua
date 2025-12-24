@@ -1,7 +1,8 @@
-vim.defer_fn(function() require('nvim-treesitter.install').prefer_git = true end, 0)
-vim.defer_fn(function()
-  require('nvim-treesitter.configs').setup {
-    -- Add languages to be installed here that you want installed for treesitter
+return {
+  'nvim-treesitter/nvim-treesitter',
+  lazy = false,
+  build = ':TSUpdate',
+  opts = {
     ensure_installed = { 'c', 'cpp', 'lua', 'python', 'vimdoc', 'vim', 'bash', 'latex' },
 
     -- Autoinstall languages that are not installed. Defaults to false (but you can change for yourself!)
@@ -61,6 +62,6 @@ vim.defer_fn(function()
           ['<leader>A'] = '@parameter.inner',
         },
       },
-    },
+    }
   }
-end, 0)
+}
