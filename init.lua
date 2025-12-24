@@ -1,4 +1,3 @@
-require('settings')
-require('keymaps')
-require('plugins.packer')
-require('plugin_config')
+require('config.settings')
+require('config.keymaps')
+require('config.lazy')
