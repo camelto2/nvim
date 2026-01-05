@@ -31,3 +31,6 @@ vim.api.nvim_create_autocmd('TextYankPost', {
   group = highlight_group,
   pattern = '*',
 })
+
+-- LSP format shortcut
+vim.keymap.set("n", "<leader>f", vim.lsp.buf.format, { desc = "[F]ormat document" })
