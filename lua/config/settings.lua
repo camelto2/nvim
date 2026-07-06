@@ -12,5 +12,6 @@ vim.opt.hlsearch = false
 vim.opt.expandtab = true
 vim.opt.shiftwidth = 2
 vim.opt.tabstop = 2
+vim.opt.wrap = false
 
 vim.g.netrw_bufsettings = 'noma nomod nu nowrap ro nobl'
